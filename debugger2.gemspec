@@ -3,7 +3,7 @@ require 'rubygems' unless defined? Gem
 require File.dirname(__FILE__) + "/lib/debugger/version"
 
 Gem::Specification.new do |s|
-  s.name = %q{debugger}
+  s.name = %q{debugger2}
   s.version = Debugger::VERSION
   s.authors = ['Koichi Sasada']
   s.email = "ko1@atdot.net"
