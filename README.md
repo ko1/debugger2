@@ -10,7 +10,24 @@ I want to merge original debugger if it has no problem. So debugger2 may be obso
 
 ## Install
 
-    TODO: xxx
+First clone this repository:
+
+```shell
+git clone git@github.com:ko1/debugger2.git
+```
+
+Next, compile the extension:
+
+```shell
+rake compile
+```
+
+Build the gem package and install it:
+
+```shell
+gem build debugger2.gemspec
+gem install debugger-1.0.0.gem
+```
 
 ## Supported Rubies
 
@@ -26,7 +43,7 @@ require 'debugger'; debugger
 
 To use with bundler, drop in your Gemfile:
 
-    gem 'debugger2'
+    gem 'debugger2', :git => "git://github.com/ko1/debugger2.git"
 
 ### Configuration
 
