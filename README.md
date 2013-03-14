@@ -43,7 +43,7 @@ require 'debugger'; debugger
 
 To use with bundler, drop in your Gemfile:
 
-    gem 'debugger2', :git => "git://github.com/ko1/debugger2.git"
+    gem 'debugger2', :git => "git://github.com/ko1/debugger2.git", require: 'debugger'
 
 ### Configuration
 
